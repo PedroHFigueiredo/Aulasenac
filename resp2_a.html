@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Segundo exercicio</title>
+  </head>
+  <body>
+    <div>
+      <p>Digite o valor da conta</p>
+      <input type="number" id="inpconta" />
+    </div>
+    <div>
+      <p>Digite quantidade de pessoas</p>
+      <input type="number" id="inppessoas" />
+    </div>
+    <button id="calconta">Calcular</button>
+
+    <p id="res"></p>
+
+    <script>
+      let  conta = prompt('Digite o valor da conta')
+      let pessoas = prompt('Digite quantidade de pessoas')
+
+      let valor = Number(conta)/(pessoas)
+
+      alert('O valor sera para cada pessoa de ' + valor)
+
+    </script>
+  </body>
+</html>

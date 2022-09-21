@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Primeiro Exercicio</h1>
+
+    <div>
+      <p>Digite um numero</p>
+      <input type="text" id="form-pri" value="" />
+    </div>
+    <div>
+      <button onclick="clickEnviar()" type="button">Enviar</button>
+    </div>
+    <p id="resMaior"></p>
+    <p id="resMenor"></p>
+    <script>
+ let dados = prompt( 'Digite um Numero:');
+    
+    let numMaior = Number(dados) + 1;
+
+    let numMenor = Number(dados) - 1;
+ 
+    alert("Vizinhos: " + numMenor  + ' e '+ numMaior)
+
+
+      //function clickEnviar(){
+      
+       // let dados = prompt( Number(document.getElementById("form-pri").value));
+    
+       // let numMaior = dados + 1;
+
+        //let numMenor = dados - 1;
+     
+       // alert("Vizinhos: " + numMenor  + ' e '+ numMaior)
+        // document.getElementById("resMaior").innerHTML = numMaior;
+        // document.getElementById("resMenor").innerHTML = numMenor;
+      //}
+    </script>
+  </body>
+</html>
