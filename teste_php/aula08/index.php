@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Editar dados aluno</title>
+    
 </head>
 <body>
     <header>
         <nav>
-            <a href="#">Home</a>
-            <a href="#">Minha conta</a>
-            <a href="#">Carrinho</a>
+            <a href="#" class="nave">Home</a>
+            <a href="#" class="nave">Minha conta</a>
+            <a href="#" class="nave">Carrinho</a>
         </nav>        
 
     </header>

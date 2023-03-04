@@ -7,20 +7,14 @@
     <title>Login</title>
 </head>
 <body>
-    <form action="validar-usuario.php" method="POST">
+    <form action="validar-adm.php" method="POST">
         <label for="#">Usuario</label>
-        <input type="text" name="usuario" placeholder="Usuario">
+        <input type="text" name="usuario_adm" placeholder="Usuario">
         <label for="#">Senha</label>
-        <input type="password" name="senha" placeholder="Senha">
+        <input type="password" name="senha_adm" placeholder="Senha">
         <button>Acessar</button>
     </form>
         <a href="cadastro.php">Cadastre-se</a>
 
-    <?php
-        if($_GET){
-            echo"Senha/Login Invalido";
-        }
-    ?>
-    
 </body>
 </html>

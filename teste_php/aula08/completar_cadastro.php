@@ -50,11 +50,20 @@
 <body>
 <section class="conteiner">
     <div class="contato">
-        <h3>Completar Cadastro</h3>
-        <form action="inserir-cliente-dados.php" class="form"  method="POST">
+            <h3>Completar Cadastro</h3>
+
+        <?php
+            if(isset($_GET['msg'])){
+                if($_GET["msg"] == "email"){
+                    echo "E-mail está em Uso";
+                }
+            }
             
+        ?>
+
+        <form action="inserir-cliente-dados.php" class="form"  method="POST">
                  <table>CPF</table>
-                 <input type=text name=hidden nome="id-client" class="coluna" value="<?=$_GET["client"]?>">
+                 <input type="hidden" name="id-client" class="coluna" value='<?php echo $_GET["client"]?>'>
                  <input type="text" class="coluna" name="cpf" >
                 
             
@@ -67,6 +76,10 @@
 
                 <table>Celular:</table>
                 <input type="text" class="coluna" name="celular" >
+
+                <table>Senha:</table>
+                <input type="text" class="coluna" name="senha" >
+
 
 
             </select>

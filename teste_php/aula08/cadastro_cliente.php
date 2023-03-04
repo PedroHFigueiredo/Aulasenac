@@ -51,7 +51,7 @@
 <section class="conteiner">
     <div class="contato">
         <h3>Formulario Cliente</h3>
-        <form action="completar_cadastro.php" class="form"  method="POST">
+        <form action="inserir-cliente.php" class="form"  method="POST">
             
                  <label>Nome:</label>
                 <input type="text" class="coluna" name="nome" >
