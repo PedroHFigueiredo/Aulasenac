@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <style>
+      body {
+        margin: 0%;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Verdana, sans-serif;
+        background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+      }
+
+      .main{
+          width: 350px;
+          height: 500px;
+          background: rgba(8, 111, 158, 0.555);
+          overflow: hidden;
+          border-radius: 70px;
+          box-shadow: 5px 20px 50px #000;
+      }
+
+      #chk{
+          display: none;
+      }
+      .signup{
+          position: relative;
+          width: 100%;
+          height: 100%;
+      }
+      label{
+          color: #fff;
+          font-size: 2.3em;
+          justify-content: center;
+          display: flex;
+          margin: 60px;
+          font-weight: bold;
+          cursor: pointer;
+          transition: 5s ease-in-out;
+      }
+
+      input{
+          width: 60%;
+          height: 20px;
+          background: #e0dede;
+          justify-content: center;
+          display: flex;
+          margin: 20px auto;
+          padding: 10px;
+          border: none;
+          outline: none;
+          border-radius: 15px;
+      }
+      button{
+          width: 60%;
+          height: 40px;
+          margin: 10px auto;
+          justify-content: center;
+          display: block;
+          color: #fff;
+          background: #6a767c77;
+          font-size: 1em;
+          font-weight: bold;
+          margin-top: 20px;
+          outline: none;
+          border: none;
+          border-radius: 15px;
+      }
+      
+      
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <input type="checkbox" id="chk" aria-hidden="true" />
+      <div class="signup">
+        <form action="#">
+          <label for="chk">Login</label>
+          <input type="text" name="txp" placeholder="Nome do Usuario" />
+
+          <input type="text" name="senha" placeholder="Senha" />
+
+
+          <button>Entrar</button>
+        </form>
+      </div>
+
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
